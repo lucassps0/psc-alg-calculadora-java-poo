@@ -28,7 +28,6 @@ public class Calculadora {
     }
 
     public double potencia() {
-        // qualquer número elevado a 0 é 1
         if (numeroDois == 0) return 1;
         return Math.pow(numeroUm, numeroDois);
     }
